@@ -7,7 +7,7 @@
 width: 100%;
 padding: 0 10%;
 }
-
+/*parte superiore*/
 header{
   width: 100%;
   height: 500px;
@@ -46,7 +46,7 @@ li{
 
 
 
-
+/*parte centrale*/
 main{
   width: 100%;
   height: 2000px;
@@ -57,16 +57,13 @@ main{
   float: left;
   width: 33%;
   height: 500px;
-  background-repeat: no-repeat;
-  
-
 }
 
 #centro{
   float: left;
   width: 33%;
   height: 500px;
-  padding-top: 15%;
+  padding: 0 5%;
 }
 
 
@@ -74,13 +71,17 @@ main{
   float: left;
   width: 33%;
   height: 500px;
-  padding-top: 5%;
 }
 
+.misure-img{
+  width: 100%;    /*misure img centrali*/
+  height: 100px;
+}
+.titoli-verdi{
+  color: green;
+}
 
-
-
-
+/*parte inferiore*/
 footer{
   width: 100%;
   height: 200px;
