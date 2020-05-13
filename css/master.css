@@ -13,13 +13,34 @@ header{
   height: 500px;
   background-color: #191970;
   background-image: url("../img/fluentify-jumbo.png");
+  background-size: cover;
 }
+#menu1{
+  display: inline-block;
+}
+#menu1 ul li a{
+  color: white;
+  text-decoration: none;
+
+}
+li{
+  display: inline-block;
+  color: white;
+  font-size: 13px;
+  padding: 0px 25px;
+}
+
 
 
 #grigio{
   width: 100%;
   height: 100px;
   background-color: #D3D3D3;
+  text-align: center;
+  padding: 10px 0;
+}
+#sottotitolo{
+  color: #808080;
 }
 
 
@@ -29,28 +50,36 @@ header{
 main{
   width: 100%;
   height: 800px;
-  background-color: red;
+  background-color: white;
 }
 
 #sinistra{
   float: left;
   width: 33%;
   height: 500px;
-  background-color: orange;
+  background-image: url("../img/fluentify-piano.svg");
+  background-repeat: no-repeat;
+
+
 }
 
 #centro{
   float: left;
   width: 33%;
   height: 500px;
-  background-color: pink;
+  background-image: url("../img/fluentify-affiancamento.svg");
+  background-repeat: no-repeat;
+
+
 }
 
 #destra{
   float: left;
   width: 33%;
   height: 500px;
-  background-color: violet;
+  background-image: url("../img/fluentify-monitora.svg");
+  background-repeat: no-repeat;
+  
 }
 
 
